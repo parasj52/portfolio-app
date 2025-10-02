@@ -57,7 +57,7 @@ export default function PortfolioApp() {
       </main>
 
       <footer className="w-full py-8 text-center text-sm text-white/60 z-20 relative">
-         Paras Jain Portfolio 2025
+         Paras Jain Portfolio @2025
       </footer>
     </div>
   );
@@ -146,24 +146,31 @@ function Projects() {
 
 function Contact() {
   return (
-    <section id="contact" className="max-w-xl">
-      <h2 className="text-2xl font-bold">Contact</h2>
-      <p className="mt-2 text-white/80">Want to work together? Send a message.</p>
+    <section id="contact" className="max-w-xl mx-auto p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg mt-10">
+      <h2 className="text-3xl font-bold text-white mb-4">Contact</h2>
+      <p className="text-white/80 mb-6">I’m open to collaborations and opportunities. You can reach me through any of the channels below:</p>
 
-      <form className="mt-6 grid gap-3">
-        <input className="px-4 py-3 rounded-lg bg-white/6 placeholder-white/50" placeholder="Your name" />
-        <input className="px-4 py-3 rounded-lg bg-white/6 placeholder-white/50" placeholder="Email" />
-        <textarea className="px-4 py-3 rounded-lg bg-white/6 placeholder-white/50" rows={5} placeholder="Tell me about your project"></textarea>
-        <div className="flex gap-3">
-          <button type="button" className="px-5 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500">Send</button>
-          <button type="button" className="px-5 py-3 rounded-xl border border-white/10">Clear</button>
+      <div className="flex flex-col gap-4 text-white/90 text-base">
+        <div className="flex items-center gap-2">
+          <span className="font-semibold w-20">Email:</span>
+          <a href="mailto:jainparas7942@gmail.com" className="underline hover:text-indigo-400">jainparas7942@gmail.com</a>
         </div>
-      </form>
 
-      <div className="mt-6 text-sm text-white/70">Email: <a href="mailto:jainparas7942@gmail.com" className="underline">jainparas7942@gmail.com</a><br/>Phone: <a href="tel:+917665408250" className="underline">+91 7665408250</a><br/>LinkedIn: <a href="https://linkedin.com/in/paras-jain-a8b0a0217" target="_blank" className="underline">paras-jain-a8b0a0217</a></div>
+        <div className="flex items-center gap-2">
+          <span className="font-semibold w-20">Phone:</span>
+          <a href="tel:+917665408250" className="underline hover:text-indigo-400">+91 7665408250</a>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <span className="font-semibold w-20">LinkedIn:</span>
+          <a href="https://linkedin.com/in/paras-jain-a8b0a0217" target="_blank" rel="noopener noreferrer" className="underline hover:text-indigo-400">paras-jain-a8b0a0217</a>
+        </div>
+      </div>
     </section>
   );
 }
+
+
 
 function MiniStat({ title, value }) {
   return (
