@@ -77,7 +77,7 @@ function Home({ onCTAClick }) {
 
         <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
           <MiniStat title="Experience" value="2+ yrs" />
-          <MiniStat title="Projects" value="10+" />
+          <MiniStat title="Projects" value="5+" />
           <MiniStat title="Awards" value="2" />
           <MiniStat title="Education" value="IIT (BHU)" />
         </div>
