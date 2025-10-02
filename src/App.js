@@ -33,7 +33,7 @@ export default function PortfolioApp() {
               {n.label}
             </button>
           ))}
-          <a href="/portfolio-app/Paras_Jain_Resume.pdf" 
+          <a href="/paras-portfolio/Paras_Jain_Resume.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="ml-3 text-sm px-4 py-2 rounded-lg bg-gradient-to-r from-indigo-500 to-fuchsia-500 shadow-lg"
