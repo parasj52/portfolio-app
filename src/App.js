@@ -33,7 +33,11 @@ export default function PortfolioApp() {
               {n.label}
             </button>
           ))}
-          <a href="/Paras_Jain_Resume.pdf" target="_blank" className="ml-3 text-sm px-4 py-2 rounded-lg bg-gradient-to-r from-indigo-500 to-fuchsia-500 shadow-lg">Resume</a>
+          <a href="/Paras_Jain_Resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="ml-3 text-sm px-4 py-2 rounded-lg bg-gradient-to-r from-indigo-500 to-fuchsia-500 shadow-lg"
+          >Resume</a>
         </nav>
 
         <div className="md:hidden">
