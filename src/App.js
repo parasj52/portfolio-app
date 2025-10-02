@@ -57,7 +57,7 @@ export default function PortfolioApp() {
       </main>
 
       <footer className="w-full py-8 text-center text-sm text-white/60 z-20 relative">
-        Built with ❤️ — Paras Jain Portfolio • Designed for GitHub Pages / Vercel
+         Paras Jain Portfolio 2025
       </footer>
     </div>
   );
