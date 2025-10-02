@@ -1,0 +1,12 @@
+
+/* The following lines require Tailwind CSS to be processed by PostCSS. 
+   If you see an error, make sure your build tool is configured for Tailwind CSS. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  If you see "Unknown at rule @tailwind", ensure your build tool (like PostCSS) 
+  is set up with the Tailwind CSS plugin. 
+  See https://tailwindcss.com/docs/installation for setup instructions.
+*/
